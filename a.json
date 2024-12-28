@@ -17,6 +17,21 @@
       }
     }
   },
+  "openapi": {
+    "security": [
+      {
+        "bearerAuth": []
+      }
+    ],
+    "components": {
+      "securitySchemes": {
+        "bearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    }
+  },
   "api": [
     {
       "name": "getRepositoryTree",
